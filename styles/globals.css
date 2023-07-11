@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Vazirimatn;
+    src: url("../public/fonts/ttf/Vazirmatn-Medium.ttf");
+}
+html,
+body {
+    font-family: Vazirimatn, sans-serif;
+    direction: rtl;
+}
